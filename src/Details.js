@@ -25,16 +25,8 @@ class Details extends Component {
       return <h2>loading … </h2>;
     }
 
-    const {
-      animal,
-      breed,
-      city,
-      state,
-      description,
-      name,
-      images,
-      showModal,
-    } = this.state;
+    const { animal, breed, city, state, description, name, images, showModal } =
+      this.state;
 
     return (
       <div className="details">
